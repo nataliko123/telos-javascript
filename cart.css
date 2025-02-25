@@ -262,3 +262,61 @@ input::placeholder {
   margin-top: 56px;
   margin-bottom: 56px;
 }
+
+
+
+@media (max-width: 1120px) {
+  .shopping-cart {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .first-section,
+  .second-section {
+    width: 100%;
+    max-width: 536px;
+    margin: 0 auto;
+  }
+
+  .second-section {
+    border: 1px solid #ebebeb;
+    height: auto;
+  }
+  .products {
+    width: 100%;
+    max-width: 536px;
+    height: auto; 
+  }
+
+
+  .second-section-header,
+  .second-section-content {
+    width: 100%;
+    max-width: 408px; 
+    margin: 0 auto;
+  }
+
+  .second-section-content {
+    margin-bottom: 56px;
+    height: auto;
+  }
+
+  .promo-field {
+    width: 100%;
+    max-width: 408px;
+  }
+
+  .input-container {
+    position: relative;
+    width: 100%;
+    max-width: 408px;
+  }
+
+
+  .shop-btn-promo {
+    position: absolute;
+    right: 12px; 
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
