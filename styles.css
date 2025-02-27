@@ -478,6 +478,7 @@ button {
   gap: 32px;
   margin-bottom: 32px;
   margin-top: 56px;
+  padding-left: 16px;
 }
 .tags-span {
   color: #000000;
@@ -758,10 +759,6 @@ button {
     order: 4;
     width: 100%;
   }
-
-  .upper-grid-content {
-    height: 424px;
-  }
   .upper-grid-content,
   .left-bottom-content,
   .right-bottom-content {
@@ -779,19 +776,36 @@ button {
     align-items: center;
     text-align: center;
     gap: 10px;
-    height: 504px;
     padding-left: 0;
     padding-inline: 16px;
     margin-bottom: 40px;
   }
+  .right-header {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .span-Air {
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+  }
   .respo-head {
     display: block;
+    margin-top: 40px;
+    width: 192px;
+    height: 200px;
   }
   .headphone-img {
     display: none;
   }
   .vision-respo {
     display: block;
+    margin-top: 40px;
+    width: 325.8666687011719px;
+    height: 192.44485473632812px;
   }
 
   .vision-pro {
@@ -800,6 +814,9 @@ button {
 
   .PlayStation-respo {
     display: block;
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
   }
   .ps-img {
     display: none;
@@ -807,6 +824,9 @@ button {
 
   .MacBook-respo {
     display: block;
+    margin-top: 40px;
+    width: 330.4812927246094px;
+    height: 200px;
   }
   .macbook-img {
     display: none;
@@ -818,21 +838,38 @@ button {
     max-width: 100%;
     height: auto;
   }
-
-  .grid-upper-header,
-  .left-bottom-header,
-  .right-bottom-header,
-  .right-header {
-    font-size: 24px;
-    line-height: 1.2;
-  }
   .grid-upper-txt,
   .left-bottom-txt,
   .right-bottom-txt,
   .right-txt {
     font-size: 16px;
   }
+  .right-bottom-header {
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .grid-upper-header {
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .span5{
+font-weight: 500;
+font-size: 34px;
+line-height: 40px;
+text-align: center;
 
+  }
+  .span-pro {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+
+    text-align: center;
+  }
   .joined-right-grid-txt {
     align-items: center;
   }
@@ -974,44 +1011,69 @@ button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
+    padding-inline: 16px;
   }
+  .discount-header-txt {
+    padding-left: 16px;
+  }
+  .joined-products-content {
+    display: flex;
+    gap: 8px;
+    margin-top: 64px;
+  }
+  .tags.container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 32px;
+    padding: 0 16px;
+  }
+  .tags-txt {
+    flex: 0 0 auto;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .all-products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    width: 100%;
+  }
+  .product-img {
+    width: 104px;
+    height: 104px;
+  }
+  .product-price {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .product-button {
+    width: 139.5px;
+    height: 48px;
+    margin-bottom: 24px;
+  }
+  .product-description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 
-  @media only screen and (max-width: 1120px) {
-    .all-products-wrapper {
-      padding: 0 16px;
-    }
-    .all-products {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 16px;
-      width: 100%;
-    }
-    .product-img {
-      width: 104px;
-      height: 104px;
-    }
-    .product-price {
-      font-weight: 600;
-      font-size: 24px;
-      line-height: 24px;
-
-      text-align: center;
-    }
-    .product-button {
-      width: 139.5px;
-      height: 48px;
-    }
-    .product-description {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 24px;
-
-      text-align: center;
-    }
-    .product-card {
-      width: 100%;
-      height: 352px;
-    }
+    text-align: center;
+  }
+  .product-card {
+    width: 100%;
+    height: 352px;
+  }
+  .product-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 48px;
   }
 }
 
@@ -1019,4 +1081,10 @@ button {
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1120px) {
+  .grid-container br {
+    display: none;
+  }
 }
