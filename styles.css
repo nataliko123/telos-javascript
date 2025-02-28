@@ -22,7 +22,7 @@ body {
   justify-content: space-between;
   gap: 52px;
   color: #b3b3b3;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
 }
 .icons {
@@ -513,7 +513,6 @@ button {
   text-align: center;
   font-weight: 500;
   font-size: 16px;
-  text-align: center;
   color: #000000;
 }
 
@@ -856,12 +855,11 @@ button {
     line-height: 40px;
     text-align: center;
   }
-  .span5{
-font-weight: 500;
-font-size: 34px;
-line-height: 40px;
-text-align: center;
-
+  .span5 {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
   }
   .span-pro {
     font-weight: 700;

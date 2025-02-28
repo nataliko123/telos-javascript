@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Phones",
+    "image": "./images/Phones.svg"
+  },
+  {
+    "name": "Smart Watches",
+    "image": "./images/Smart Watches.svg"
+  },
+  {
+    "name": "Cameras",
+    "image": "./images/Cameras.svg"
+  },
+  {
+    "name": "gamarjoba",
+    "image": "./images/Headphones.svg"
+  },
+  {
+    "name": "Computers",
+    "image": "./images/Computers.svg"
+  },
+  {
+    "name": "Gaming",
+    "image": "./images/Gaming.svg"
+  }
+]
