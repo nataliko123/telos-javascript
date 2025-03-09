@@ -417,3 +417,43 @@ line-height: 32px;
 }
 
 
+.products {
+  width: 536px;
+  max-height: 556px; /* Changed from height */
+  overflow-y: auto; /* Add scroll */
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* For mobile responsive */
+@media (max-width: 1120px) {
+  .products {
+    max-height: 60vh; /* Adjust based on viewport */
+    height: auto;
+    overflow-y: auto;
+  }
+  
+  .shopping-cart {
+    overflow: visible; /* Ensure other content remains visible */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
